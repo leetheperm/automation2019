@@ -12,3 +12,6 @@ A bot I made to save myself some time to input a new checklist of every park in 
 
 Trello museum:
 A bot I made to save myself some time to input a new checklist of every museum in London using selenium into a trello card
+
+Job search:
+A timesaving script that opens up the top job sites and inputs a list item of your choice and location.
