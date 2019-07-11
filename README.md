@@ -73,20 +73,69 @@ url = ("https://www.website.com")
 
 ## Scripts in this repository
 
-### Unfollow bot:
+### UnfollowBot:
 An instagram bot that goes through your most recently added friends and deletes them one by one, indiscriminately. 
 
-### Like bot:
-An instagram bot that goes through the top images of a chosen hashtag (from a list within python) and likes every image 
+Log into your account by inputting your account information into this part of the script:
+```
+Lee = InstagramBot("Username", "Password")
+```
+Choose your own hashtags in this section(make sure they are in quotations and separated by commas):
+```
+hashtags = ['London', 'UK', 'whatever']
+```
 
+### Instagram_likes:
+An instagram bot that goes through the top images of a chosen hashtag (from a list within python) and likes every image.
+
+Log into your account by inputting your account information into this part of the script:
+```
+Lee = InstagramBot("Username", "Password")
+```
+Choose your own hashtags in this section(make sure they are in quotations and separated by commas):
+```
+hashtags = ['London', 'UK', 'whatever']
+```
 ### Trello park:
-A bot I made to save myself some time to input a new checklist of every park in London using selenium into a trello card
+A bot I made to save myself some time to input a new checklist of every park in London using selenium into a trello card.
+
+Insert your username to this line in the script:
+
+```
+login_deets.send_keys('Username')
+```
+
+and your password goes here:
+
+```
+password_deets.send_keys('Password')
+```
+
 
 ### Trello museum:
-A bot I made to save myself some time to input a new checklist of every museum in London using selenium into a trello card
+A bot I made to save myself some time to input a new checklist of every museum in London using selenium into a trello card.
+
+Insert your username to this line in the script:
+
+```
+login_deets.send_keys('Username')
+```
+
+and your password goes here:
+
+```
+password_deets.send_keys('Password')
+```
+
 
 ### Job search:
 A timesaving script that opens up the top job sites and inputs a list item of your choice and location.
+
+Put the job title you want to search in jobSearches:
+
+```
+jobSearches = ['junior software tester']
+```
 
 ## Authors
 
