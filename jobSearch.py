@@ -122,7 +122,7 @@ jobSearches = ['junior software tester']
 # alternatives = 'QA tester' 'software tester' 'qa analyst' 'automation engineer' 'junior tester' 'junior QA'
 
 
-searcher = JobCrawler('leetheperm@gmail.com', 'Iamweasel1',)
+searcher = JobCrawler('Username', 'Password',)
 searcher.linkedIn()
 time.sleep(2)
 # searcher.newChromeTab()
