@@ -90,7 +90,7 @@ class InstagramBot:
 		    #/html/body/div[3]/div/div[2]/div/article/div[2]/section[1]/span[1]/button
 
 
-Lee = InstagramBot("bobbycoot", "Iamweasel1")
+Lee = InstagramBot("username", "password")
 Lee.login()
 
 hashtag = ['UFC', 'fight', 'mma', 'mma-fighting', 'UFCLondon', 'UFC241','UFC237', 'UFC238', 'UFC239', 'UFCfightnight', 'bjj', 'muaythai', 'bellator', 'cagewarriors']
